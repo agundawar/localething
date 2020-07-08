@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E506FA2724B4AEE500CAF87F /* localethingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E506FA2624B4AEE500CAF87F /* localethingUITests.swift */; };
 		EAD8AE6F20B57EF100461221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD8AE6E20B57EF100461221 /* AppDelegate.m */; };
 		EAD8AE7220B57EF100461221 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD8AE7120B57EF100461221 /* ViewController.m */; };
 		EAD8AE7520B57EF100461221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD8AE7320B57EF100461221 /* Main.storyboard */; };
@@ -15,7 +16,21 @@
 		EAD8AE7D20B57EF200461221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD8AE7C20B57EF200461221 /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E506FA2924B4AEE500CAF87F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAD8AE6220B57EF100461221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD8AE6920B57EF100461221;
+			remoteInfo = localething;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		E506FA1D24B4AE9500CAF87F /* localething-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "localething-Bridging-Header.h"; sourceTree = "<group>"; };
+		E506FA2424B4AEE500CAF87F /* localethingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = localethingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E506FA2624B4AEE500CAF87F /* localethingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localethingUITests.swift; sourceTree = "<group>"; };
+		E506FA2824B4AEE500CAF87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAD8AE6A20B57EF100461221 /* localething.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = localething.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD8AE6D20B57EF100461221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EAD8AE6E20B57EF100461221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +44,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E506FA2124B4AEE500CAF87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAD8AE6720B57EF100461221 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,11 +61,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E506FA2524B4AEE500CAF87F /* localethingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E506FA2624B4AEE500CAF87F /* localethingUITests.swift */,
+				E506FA2824B4AEE500CAF87F /* Info.plist */,
+			);
+			path = localethingUITests;
+			sourceTree = "<group>";
+		};
 		EAD8AE6120B57EF100461221 = {
 			isa = PBXGroup;
 			children = (
 				EAD8AE6C20B57EF100461221 /* localething */,
+				E506FA2524B4AEE500CAF87F /* localethingUITests */,
 				EAD8AE6B20B57EF100461221 /* Products */,
+				E506FA1D24B4AE9500CAF87F /* localething-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				EAD8AE6A20B57EF100461221 /* localething.app */,
+				E506FA2424B4AEE500CAF87F /* localethingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +108,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E506FA2324B4AEE500CAF87F /* localethingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E506FA2B24B4AEE500CAF87F /* Build configuration list for PBXNativeTarget "localethingUITests" */;
+			buildPhases = (
+				E506FA2024B4AEE500CAF87F /* Sources */,
+				E506FA2124B4AEE500CAF87F /* Frameworks */,
+				E506FA2224B4AEE500CAF87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E506FA2A24B4AEE500CAF87F /* PBXTargetDependency */,
+			);
+			name = localethingUITests;
+			productName = localethingUITests;
+			productReference = E506FA2424B4AEE500CAF87F /* localethingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		EAD8AE6920B57EF100461221 /* localething */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAD8AE8020B57EF200461221 /* Build configuration list for PBXNativeTarget "localething" */;
@@ -97,12 +149,19 @@
 		EAD8AE6220B57EF100461221 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Idontknowsomething;
 				TargetAttributes = {
+					E506FA2324B4AEE500CAF87F = {
+						CreatedOnToolsVersion = 11.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAD8AE6920B57EF100461221;
+					};
 					EAD8AE6920B57EF100461221 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						LastSwiftMigration = 1120;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -120,11 +179,19 @@
 			projectRoot = "";
 			targets = (
 				EAD8AE6920B57EF100461221 /* localething */,
+				E506FA2324B4AEE500CAF87F /* localethingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E506FA2224B4AEE500CAF87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAD8AE6820B57EF100461221 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,6 +205,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E506FA2024B4AEE500CAF87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E506FA2724B4AEE500CAF87F /* localethingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAD8AE6620B57EF100461221 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,6 +224,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E506FA2A24B4AEE500CAF87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAD8AE6920B57EF100461221 /* localething */;
+			targetProxy = E506FA2924B4AEE500CAF87F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EAD8AE7320B57EF100461221 /* Main.storyboard */ = {
@@ -170,6 +253,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E506FA2C24B4AEE500CAF87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XPT93F9Q7;
+				INFOPLIST_FILE = localethingUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhilg.localethingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d1f33295-c7d6-4be3-a98e-3bfc082e694f";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = localething;
+			};
+			name = Debug;
+		};
+		E506FA2D24B4AEE500CAF87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XPT93F9Q7;
+				INFOPLIST_FILE = localethingUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhilg.localethingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d1f33295-c7d6-4be3-a98e-3bfc082e694f";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = localething;
+			};
+			name = Release;
+		};
 		EAD8AE7E20B57EF200461221 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -202,6 +331,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Y692X2VJRY;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -257,6 +387,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Y692X2VJRY;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -278,15 +409,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8XPT93F9Q7;
 				INFOPLIST_FILE = localething/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.browserstack.localething.localething;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhilg.localethingxcui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d1f33295-c7d6-4be3-a98e-3bfc082e694f";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
+				PROVISIONING_PROFILE = Automatic;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "localething-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -295,15 +431,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8XPT93F9Q7;
 				INFOPLIST_FILE = localething/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.browserstack.localething.localething;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhilg.localethingxcui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d1f33295-c7d6-4be3-a98e-3bfc082e694f";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
+				PROVISIONING_PROFILE = Automatic;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "localething-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -311,6 +451,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E506FA2B24B4AEE500CAF87F /* Build configuration list for PBXNativeTarget "localethingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E506FA2C24B4AEE500CAF87F /* Debug */,
+				E506FA2D24B4AEE500CAF87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EAD8AE6520B57EF100461221 /* Build configuration list for PBXProject "localething" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
